@@ -1,0 +1,61 @@
+
+h1, h2 {
+    color: #d4d4d2;
+}
+
+h1 {
+    margin-block-start: 0em;
+    color: white;
+}
+
+.input_area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.input_area h2 {
+    margin-right: 2em;
+}
+
+input {
+    height: 2em;
+    border-radius: 0.3em;
+    border: none;
+}
+
+.container {
+    margin-top: 2em;
+    background-color: #1c1c1c;
+    display: inline-flex;
+    padding: 1.5em;
+    border-radius: 0.5em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 3em;
+    width: 100%;
+    border: none;
+    background-color: #ff9500;
+    color: white;
+    border-radius: 0.3em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    margin-top:2em;
+    border-radius: 0.3em;
+}
